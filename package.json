@@ -1,6 +1,6 @@
 {
   "name": "capacitor-background-changer",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "A Capacitor plugin to change the WebView background",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
