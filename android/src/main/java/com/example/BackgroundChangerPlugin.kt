@@ -11,10 +11,8 @@ class BackgroundChangerPlugin : Plugin() {
 
     @PluginMethod
     fun changeBackground(call: PluginCall) {
-        val color = call.getString("color") ?: "#FFFFFF"
-        
         activity.runOnUiThread {
-            bridge.webView.setBackgroundColor(android.graphics.Color.parseColor(color))
+            bridge.webView.setBackgroundColor(Color.TRANSPARENT)
         }
         
         call.resolve()
