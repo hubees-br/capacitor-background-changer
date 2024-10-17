@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.example.plugin.backgroundchanger'  // Add this line
+    namespace 'com.example.plugin.backgroundchanger'
     compileSdkVersion 33
     defaultConfig {
         minSdkVersion 21
