@@ -17,4 +17,12 @@ public class BackgroundChangerPlugin extends Plugin {
             call.resolve();
         });
     }
+
+    @PluginMethod
+    public void changeBackgroundToWhite(PluginCall call) {
+        getBridge().executeOnMainThread(() -> {
+            getBridge().getWebView().setBackgroundColor(Color.WHITE);
+            call.resolve();
+        });
+    }
 }
