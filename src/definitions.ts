@@ -1,4 +1,4 @@
 export interface BackgroundChangerPlugin {
-    changeBackgroundToTransparent(): Promise<void>;
-    changeBackgroundToWhite(): Promise<void>;
+  changeBackgroundToTransparent(): Promise<void>;
+  changeBackgroundToWhite(): Promise<void>;
 }

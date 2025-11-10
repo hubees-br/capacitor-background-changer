@@ -1,0 +1,35 @@
+{
+  "api": {
+    "name": "BackgroundChangerPlugin",
+    "slug": "backgroundchangerplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "changeBackgroundToTransparent",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "changebackgroundtotransparent"
+      },
+      {
+        "name": "changeBackgroundToWhite",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "changebackgroundtowhite"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
